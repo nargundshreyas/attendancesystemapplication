@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- UI Components Dimensions -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="image_view_width">140dp</dimen>
+    <dimen name="image_view_height">200dp</dimen>
+    <dimen name="pg_height">100dp</dimen>
+    <dimen name="pg_width">200dp</dimen>
+    <dimen name="student_photo_image_view_width">150dp</dimen>
+    <dimen name="student_photo_image_view_height">150dp</dimen>
+    <dimen name="edit_width">250dp</dimen>
+    <dimen name="edit_height">40dp</dimen>
+    <dimen name="btn_height">50dp</dimen>
+    <dimen name="btn_width">200dp</dimen>
+    <dimen name="font_size">18sp</dimen>
+    <!-- UI Components Margins -->
+    <dimen name="standard_margin">10dp</dimen>
+    
+    <dimen name="scr_register_student_margin">10dp</dimen>
+    <dimen name="scr_register_student_marginLeft">5dp</dimen>
+    <dimen name="scr_register_student_marginTop">5dp</dimen>
+    <dimen name="scr_register_student_marginBottom">5dp</dimen>
+    <dimen name="scr_register_student_marginRight">5dp</dimen>
+    
+    <dimen name="scr_register_faculty_margin">10dp</dimen>
+    <dimen name="scr_register_faculty_marginLeft">5dp</dimen>
+    <dimen name="scr_register_faculty_marginTop">5dp</dimen>
+    <dimen name="scr_register_faculty_marginBottom">5dp</dimen>
+    <dimen name="scr_register_faculty_marginRight">5dp</dimen>
+
+    <dimen name="scr_start_lecture_marginLeft">5dp</dimen>
+    <dimen name="scr_start_lecture_marginTop">5dp</dimen>
+    <dimen name="scr_start_lecture_marginBottom">5dp</dimen>
+    <dimen name="scr_start_lecture_marginRight">5dp</dimen>
+    
+    <dimen name="scr_faculty_marginLeft">20dp</dimen>
+    <dimen name="scr_faculty_marginTop">20dp</dimen>
+    <dimen name="scr_faculty_marginBottom">20dp</dimen>
+    <dimen name="scr_faculty_marginRight">20dp</dimen>
+
+    <dimen name="scr_add_class_marginLeft">20dp</dimen>
+    <dimen name="scr_add_class_marginTop">20dp</dimen>
+    <dimen name="scr_add_class_marginBottom">20dp</dimen>
+    <dimen name="scr_add_class_marginRight">20dp</dimen>
+    <dimen name="scr_add_class_margin">20dp</dimen>
+
+    <dimen name="scr_add_subject_margin">20dp</dimen>
+    
+    <dimen name="scr_admin_marginLeft">20dp</dimen>
+    <dimen name="scr_admin_marginTop">20dp</dimen>
+    <dimen name="scr_admin_marginBottom">20dp</dimen>
+    <dimen name="scr_admin_marginRight">20dp</dimen>
+
+	<dimen name="scr_show_attendance_margin">15dp</dimen>
+	<dimen name="scr_show_attendance_column_height">20dp</dimen>
+</resources>

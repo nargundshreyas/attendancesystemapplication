@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_black">#000000</color>
+    <color name="color_light_gray">#d3d3d3</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_steel_blue">#1B2838</color>
+    <color name="color_gray">#B6B5B2</color>
+    <color name="color_light_green">#A4C639</color>
+    <color name="color_aap_theme">#171A21</color>
+    
+</resources>

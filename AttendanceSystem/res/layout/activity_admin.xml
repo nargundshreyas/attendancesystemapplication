@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_steel_blue" >
+
+        <FrameLayout
+            android:id="@+id/frameLayoutDummyFrame"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" >
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnRegisterStudent"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/frameLayoutDummyFrame"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/scr_admin_marginBottom"
+            android:layout_marginLeft="@dimen/scr_admin_marginLeft"
+            android:layout_marginRight="@dimen/scr_admin_marginRight"
+            android:layout_marginTop="@dimen/scr_admin_marginTop"
+            android:background="@drawable/rectangular_corner"
+            android:text="@string/str_btn_register_student"
+            android:textColor="@color/color_white" />
+
+        <Button
+            android:id="@+id/btnRegisterFaculty"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/btnRegisterStudent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/scr_admin_marginBottom"
+            android:layout_marginLeft="@dimen/scr_admin_marginLeft"
+            android:layout_marginRight="@dimen/scr_admin_marginRight"
+            android:layout_marginTop="@dimen/scr_admin_marginTop"
+            android:background="@drawable/rectangular_corner"
+            android:text="@string/str_btn_register_faculty"
+            android:textColor="@color/color_white" />
+
+        <Button
+            android:id="@+id/btnAddClass"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/btnRegisterFaculty"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/scr_admin_marginBottom"
+            android:layout_marginLeft="@dimen/scr_admin_marginLeft"
+            android:layout_marginRight="@dimen/scr_admin_marginRight"
+            android:layout_marginTop="@dimen/scr_admin_marginTop"
+            android:background="@drawable/rectangular_corner"
+            android:text="@string/str_btn_add_class"
+            android:textColor="@color/color_white" />
+
+        <Button
+            android:id="@+id/btnAddSubject"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/btnAddClass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/scr_admin_marginBottom"
+            android:layout_marginLeft="@dimen/scr_admin_marginLeft"
+            android:layout_marginRight="@dimen/scr_admin_marginRight"
+            android:layout_marginTop="@dimen/scr_admin_marginTop"
+            android:background="@drawable/rectangular_corner"
+            android:text="@string/str_btn_add_subject"
+            android:textColor="@color/color_white" />
+
+        <Button
+            android:id="@+id/btnAdminActivityLogout"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@id/btnAddSubject"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/scr_admin_marginBottom"
+            android:layout_marginLeft="@dimen/scr_admin_marginLeft"
+            android:layout_marginRight="@dimen/scr_admin_marginRight"
+            android:layout_marginTop="@dimen/scr_admin_marginTop"
+            android:background="@drawable/rectangular_corner"
+            android:text="@string/str_btn_logout"
+            android:textColor="@color/color_white" />
+    </RelativeLayout>
+
+</ScrollView>

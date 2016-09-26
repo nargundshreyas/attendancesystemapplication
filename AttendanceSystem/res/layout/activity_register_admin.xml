@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_steel_blue"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="@dimen/image_view_width"
+        android:layout_height="@dimen/image_view_height"
+        android:layout_below="@id/txtThumbImpression"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/imgViewBlackTrasparentBackground"
+            android:layout_width="@dimen/image_view_width"
+            android:layout_height="@dimen/image_view_height"
+            android:src="@drawable/black_transparent" />
+
+        <ImageView
+            android:id="@+id/imgViewRegisterAdmin"
+            android:layout_width="@dimen/image_view_width"
+            android:layout_height="@dimen/image_view_height"
+            android:layout_centerInParent="true" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnRegisterAdmin"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/standard_margin"
+        android:background="@drawable/rectangular_corner"
+        android:text="@string/str_btn_register_admin"
+        android:textColor="@color/color_white" />
+
+</RelativeLayout>

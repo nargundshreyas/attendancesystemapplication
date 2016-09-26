@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_steel_blue" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/scr_show_attendance_margin" 
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/tblAttendanceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scr_show_attendance_column_height" >
+
+                <TextView
+                    android:id="@+id/txtTotalStudents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="1"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/font_size" />
+
+                <TextView>
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scr_show_attendance_column_height" >
+
+                <TextView
+                    android:id="@+id/txtPresentStudents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtTotalStudents"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="1"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/font_size" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scr_show_attendance_column_height" >
+
+                <TextView
+                    android:id="@+id/txtAbsentStudents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtPresentStudents"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="1"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/font_size" >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:id="@+id/tblStudentAttendance"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

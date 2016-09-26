@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imcc.attendancesystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.imcc.attendancesystem.AttendanceSystemApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.imcc.attendancesystem.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.AdminActivity"
+            android:label="@string/str_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.RegisterStudentActivity"
+            android:label="@string/str_activity_register_student" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.RegisterFacultyActivity"
+            android:label="@string/str_activity_register_faculty" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.AddClassActivity"
+            android:label="@string/str_activity_add_class" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.AddSubjectActivity"
+            android:label="@string/str_activity_add_subject" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.RegisterAdminActivity"
+            android:label="@string/str_activity_register_admin" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.FacultyActivity"
+            android:label="@string/str_activity_faculty" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.StartLectureAttendanceActivtiy"
+            android:label="@string/str_activity_start_lecture_attendance" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.LectureAttendanceActivity"
+            android:label="@string/str_activity_lecture_attendance" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.Logout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.EndLectureAttendanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.ViewAttendanceActivity"
+            android:label="@string/str_activity_view_attendance" >
+        </activity>
+        <activity
+            android:name="com.imcc.attendancesystem.ShowAttendanceActivity"
+            android:label="@string/title_activity_show_attendance" >
+        </activity>
+        <activity
+            android:name="com.utility.DialogActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/applogo"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

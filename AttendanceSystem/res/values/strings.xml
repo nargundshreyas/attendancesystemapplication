@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AttendanceSystem</string>
+    <string name="action_settings">Settings</string>
+    <!-- Activities -->
+    <string name="str_activity_add_class">Add Class</string>
+    <string name="str_activity_add_common_subject">Add Common Subject</string>
+    <string name="str_activity_add_subject">Add Subject</string>
+    <string name="str_activity_faculty">Faculty</string>
+    <string name="str_activity_lecture_attendance">Lecture Attendance</string>
+    <string name="str_activity_login">AttendanceSystem</string>
+    <string name="str_activity_register_admin">Register Admin</string>
+    <string name="str_activity_register_faculty">Register Faculty</string>
+    <string name="str_activity_register_student">Register Student</string>
+    <string name="str_activity_admin">Admin</string>
+    <string name="str_activity_start_lecture_attendance">Start Session</string>
+    <string name="str_activity_view_attendance">View Attendance</string>
+
+    <!-- UI String -->
+    <string name="str_btn_logout">Logout</string>
+	
+	<!-- Dialog Activity Screen -->
+    <string name="str_btn_dialog_ok">Ok</string>
+    
+    <!-- Register Admin Screen -->
+    <string name="str_btn_register_admin">Register Admin</string>
+    <!-- Login Screen -->
+    <string name="str_txt_thumb_impression">Thumb Impression</string>
+    <string name="str_btn_login">Login</string>
+
+    <!-- Admin Screen -->
+    <string name="str_btn_register_student">Register Student</string>
+    <string name="str_btn_register_faculty">Register Faculty</string>
+    <string name="str_btn_add_class">Add Class</string>
+    <string name="str_btn_add_subject">Add Subject</string>
+
+    <!-- Register Student -->
+    <string name="str_txt_student_roll_no">Roll Number:</string>
+    <string name="str_txt_student_class">Class:</string>
+    <string name="str_txt_student_first_name">First Name:</string>
+    <string name="str_txt_student_last_name">Last Name:</string>
+    <string name="str_btn_cancel">Cancel</string>
+    
+    <!-- Register Faculty -->
+    <string name="str_txt_faculty_id">Faculty Id:</string>
+    <string name="str_txt_faculty_first_name">First Name:</string>
+    <string name="str_txt_faculty_last_name">Last Name:</string>
+    
+    <!-- Add Class -->
+    <string name="str_txt_class_name">Class Name:</string>
+    
+    <!-- Add Subject -->
+    <string name="str_txt_subject_name">Subject Name:</string>
+    <string name="str_txt_subject_faculty_name">Subject Faculty Name:</string>
+    <string name="str_txt_subject_class_name">Class Name:</string>
+
+    <!-- Faculty Screen -->
+    <string name="str_btn_start_lecture_attendance">Start Lecture</string>
+    <string name="str_btn_view_attendance">View Attendance</string>
+    <!-- Start Lecture -->
+    <string name="str_txt_lecture_time">Lecture Time:</string>
+    <string name="str_txt_lecture_date">Lecture Date:</string>
+    <string name="str_txt_lecture_subject">Subject:</string>
+    <string name="str_txt_lecture_class">Class:</string>
+    <string name="str_txt_lecture_list">List of Lectures:</string>
+    <string name="str_btn_start_session">Start Session</string>
+    <!-- Lecture Attendance -->
+    <string name="str_btn_mark_attendance">Mark Attendance</string>
+    <!-- End Session -->
+    <string name="str_btn_end_session">End Session</string>
+    <string name="selectdate">Pick time</string>
+    <string name="title_activity_show_attendance">ShowAttendanceActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Show Attendance Screen -->
+    <string name="stringTableLabelRollNo">Roll No</string>
+    <string name="stringTableLabelStudentName">Student Name</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+
+</resources>

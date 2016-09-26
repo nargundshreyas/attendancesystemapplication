@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_steel_blue"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/scr_add_class_margin" >
+
+        <TextView
+            android:id="@+id/txtCommonSubjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_txt_subject_name"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/scr_add_class_margin" >
+
+        <EditText
+            android:id="@+id/editCommonSubjectName"
+            android:layout_width="@dimen/edit_width"
+            android:layout_height="@dimen/edit_height"
+            android:hint="Class"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/scr_add_class_margin" >
+
+        <Button
+            android:id="@+id/btnAddCommonSubjectName"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/rectangular_corner"
+            android:textColor="@color/color_white"
+            android:text="@string/str_btn_add_subject" />
+    </LinearLayout>
+
+</LinearLayout>

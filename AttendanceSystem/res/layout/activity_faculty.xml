@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_steel_blue" >
+
+    <Button
+        android:id="@+id/btnStartLectureAttendance"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/scr_faculty_marginBottom"
+        android:layout_marginLeft="@dimen/scr_faculty_marginLeft"
+        android:layout_marginRight="@dimen/scr_faculty_marginRight"
+        android:layout_marginTop="@dimen/scr_faculty_marginTop"
+        android:background="@drawable/rectangular_corner"
+        android:text="@string/str_btn_start_lecture_attendance"
+        android:textColor="@color/color_white" />
+
+    <Button
+        android:id="@+id/btnViewAttendance"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/btnStartLectureAttendance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/scr_faculty_marginBottom"
+        android:layout_marginLeft="@dimen/scr_faculty_marginLeft"
+        android:layout_marginRight="@dimen/scr_faculty_marginRight"
+        android:layout_marginTop="@dimen/scr_faculty_marginTop"
+        android:background="@drawable/rectangular_corner"
+        android:text="@string/str_btn_view_attendance"
+        android:textColor="@color/color_white"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnFacultyActivityLogout"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/btnViewAttendance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/scr_faculty_marginBottom"
+        android:layout_marginLeft="@dimen/scr_faculty_marginLeft"
+        android:layout_marginRight="@dimen/scr_faculty_marginRight"
+        android:layout_marginTop="@dimen/scr_faculty_marginTop"
+        android:background="@drawable/rectangular_corner"
+        android:text="@string/str_btn_logout"
+        android:textColor="@color/color_white" />
+
+</RelativeLayout>

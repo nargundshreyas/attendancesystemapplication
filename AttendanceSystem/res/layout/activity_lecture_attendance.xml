@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_steel_blue" >
+
+    <Button
+        android:id="@+id/btnEndLecture"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_corner"
+        android:text="@string/str_btn_end_session"
+        android:textColor="@color/color_white" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="@dimen/image_view_width"
+        android:layout_height="@dimen/image_view_height"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/imgViewBlackTrasparentBackground"
+            android:layout_width="@dimen/image_view_width"
+            android:layout_height="@dimen/image_view_height"
+            android:src="@drawable/black_transparent" />
+
+        <ImageView
+            android:id="@+id/imgViewLectureAttendance"
+            android:layout_width="@dimen/image_view_width"
+            android:layout_height="@dimen/image_view_height" />
+
+        <ImageView
+            android:id="@+id/imgViewRedCrossTrasparent"
+            android:layout_width="@dimen/image_view_width"
+            android:layout_height="@dimen/image_view_height"
+            android:src="@drawable/red_cross_transparent"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnMarkAttendance"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangular_corner"
+        android:text="@string/str_btn_mark_attendance"
+        android:textColor="@color/color_white" />
+
+    <ImageView
+        android:id="@+id/imgViewStudentPhoto"
+        android:layout_width="@dimen/student_photo_image_view_height"
+        android:layout_height="@dimen/student_photo_image_view_height"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="70dp"
+        android:layout_toLeftOf="@id/frameLayout"
+        android:src="@drawable/default_user_photo"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtLectureAttendanceStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgViewStudentPhoto"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@id/frameLayout"
+        android:textSize="@dimen/font_size" />
+</RelativeLayout>
